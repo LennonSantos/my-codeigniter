@@ -1,1 +1,3 @@
-<h1>Bem vindo a home page</h1>
+<section>
+	<h2>Bem vindo a home page</h2>
+</section>

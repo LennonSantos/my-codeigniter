@@ -1,3 +1,6 @@
-   <em>&copy; 2016</em>
-        </body>
+		    <footer>
+		   		<p>Lennon Santos &copy; 2016</p>
+		    </footer>
+		</div> <!-- .container -->
+    </body>
 </html>

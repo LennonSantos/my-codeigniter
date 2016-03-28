@@ -1,0 +1,169 @@
+*{ 
+	margin: 0px;	
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a{display: inline-block;}
+
+.article{
+	border-bottom: 2px dashed #ecf0f1;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+}
+
+.article:first-of-type{
+	padding-top: 0;
+}
+
+.article a, .button{
+	background-color: transparent;
+	border: 1px solid #3498db; 
+	border-radius: 20px;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	color: #3498db;
+	cursor: pointer;
+	font-size: 1.5em;
+	padding: 0.666em;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.article a:hover, .button:hover{
+	border: 1px dashed #3498db; 
+}
+
+.article h3{
+	font-size: 2em;
+	font-weight: normal;
+}
+
+.article .main{
+	color: #95a5a6;
+	font-size: 1.7em;
+	padding: 0.588em;
+	padding-left: 0px;
+}
+
+body{ 
+	color: #555;
+	font-size: 62.5%;
+	font-family: "arial", sans-serif;
+}
+
+body, html{
+	height: 100%;
+}
+
+.container{
+	min-height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+footer{
+	box-shadow: 0px 0px 2px #95a5a6;
+	bottom: 0;
+	margin: auto;
+	padding: 1em;
+	position: absolute;
+	width: 100%;
+}
+
+footer p{
+	color: #7f8c8d;
+	font-size: 1.7em;
+	text-align: center;
+}
+
+.form{
+
+}
+
+.form input, .form label{
+	display: block;
+}
+
+.form input[type='text'], form textarea{
+	border: 1px solid #bdc3c7;
+	font-size: 1.7em;
+	height: 2.352em;
+	margin-bottom: 1.176em;
+	text-indent: 10px;
+	width: 100%;
+}
+
+.form input[type='submit']{
+	margin-bottom: 1.176em;
+}
+
+.form label{
+	font-size: 1.7em;
+}
+
+header{
+	box-shadow: 0px 0px 2px #95a5a6;
+	display: table;
+	padding: 3em;
+	width: 100%;
+}
+
+header h1{
+	color: #7f8c8d;
+	font-size: 3em;
+}
+
+header h1, header nav{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+img{border: 0; max-width: 100%;}
+
+.menu{
+	text-align: right;
+}
+
+.menu-item{
+	display: inline-block;
+	list-style: none;
+	margin-left: 3em;
+}
+
+.menu-item-link{
+	color: #7f8c8d;
+	background-color: #ecf0f1;
+	font-size: 1.7em;
+	padding: 0.5882em;
+	text-decoration: none;
+}
+
+section{
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 3em;
+	padding-bottom: 6em;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 2.3em;
+	margin-bottom: 1.304em;
+	text-decoration: underline;
+}
+
+.success{
+	box-shadow: 0px 0px 3px #2ecc71;
+}
+
+.success p, .warning p{
+	font-size: 1.7em;
+	padding: 0.588em;
+}
+
+.warning{
+	box-shadow: 0px 0px 3px #e74c3c;
+}
